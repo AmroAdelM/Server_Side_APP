@@ -38,3 +38,8 @@
 ```
 <client id= "1" server_ip=" 127.0.0.1" interval="2000"><item name = "Free memory" value="1"/><item name = "Swapspace Used" value="7"/><item name = "CPU load" value="4"/><item name = "Disk space free" value="0"/><item name = "IO Wait" value="9"/></client>
 ```
+# Future Work
+- Cover the server functionalties with unit tests.
+- Support email functionalties for sending alert emails.
+- Use SCTP Protocol.
+- Wrap the connection code ij a better class.
