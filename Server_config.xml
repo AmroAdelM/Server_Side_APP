@@ -1,9 +1,9 @@
 <config>
-    <error_email_addresses Number="2">
+    <error_email_addresses>
         <email>IT@1.com</email>
         <email>HR@1.com</email>
     </error_email_addresses>
-    <clients Number="5">
+    <clients>
         <client id="1" email="1@1.com" information_items_Type = "Type_1"/>
 		<client id="2" email="2@2.com" information_items_Type = "Type_2"/>
     </clients>
