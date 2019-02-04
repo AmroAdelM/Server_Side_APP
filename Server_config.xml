@@ -1,0 +1,28 @@
+<config>
+    <error_email_addresses Number="2">
+        <email>IT@1.com</email>
+        <email>HR@1.com</email>
+    </error_email_addresses>
+    <clients Number="5">
+        <client id="1" email="1@1.com" information_items_Type = "Type_1"/>
+		<client id="2" email="2@2.com" information_items_Type = "Type_2"/>
+    </clients>
+	
+	<information_items_Type>
+		<Type_1>
+			<item name ="Free memory" lowest_value="0" highest_value="10"/>
+			<item name ="Swapspace Used" lowest_value="10" highest_value="100"/>
+			<item name ="CPU" lowest_value="0" highest_value="10"/>
+			<item name ="Disk space free" lowest_value="0" highest_value="10"/>
+			<item name ="IO Wait" lowest_value="0" highest_value="10"/>
+		</Type_1>
+		
+		<Type_2>
+			<item name ="Free memory" lowest_value="0" highest_value="10"/>
+			<item name ="Swapspace Used" lowest_value="10" highest_value="100"/>
+			<item name ="CPU" lowest_value="1" highest_value="10"/>
+			<item name ="Disk space free" lowest_value="5" highest_value="10"/>
+			<item name ="IO Wait" lowest_value="0" highest_value="10"/>
+		</Type_2>
+	</information_items_Type>
+</config>
