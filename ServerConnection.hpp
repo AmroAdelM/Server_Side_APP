@@ -125,7 +125,7 @@ namespace Serverlayer {
 				auto items = obj->getClientConfiguredItemsByID(client_id);
 				auto client_items = obj->geClientItems(recvbuf);
 				error = obj->validateClientItems(items, client_items);
-				std::cout << "result: " << (error == Serverlayer::ERROR_TYPE::NONE ? "Same\n" : "Not Same\n");
+				std::cout << "result: " << (error == Serverlayer::ERROR_TYPE::NONE ? "No Errors in the message recieved\n" : "Some Error occured\n");
 
 				std::ofstream myfile;
 				auto file_name = "client_" + client_id + ".txt";
